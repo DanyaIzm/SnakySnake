@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>SnakySnake Game</title>
+    <link rel="stylesheet" href="snake-style.css" />
+  </head>
+  <body>
+    <div id="start-game">
+      <h1>Нажмите ENTER</h1>
+    </div>
+    <div id="game-over">
+      <h1>Игра окончена</h1>
+      <h1 id="final-count">Счёт: 0</h1>
+      <h2 id="record">Ваш рекорд: 0</h2>
+    </div>
+    <div class="info">
+      <h1 id="time">Времени осталось: 999 секунд</h1>
+      <h1 id="points">Очки: 0</h1>
+    </div>
+    <div class="snake">
+      <canvas id="game" width="400" height="400"></canvas>
+    </div>
+    <script src="snake-game.js"></script>
+  </body>
+</html>
